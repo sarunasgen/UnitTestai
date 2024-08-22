@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestai", "UnitTestai\UnitTestai.csproj", "{5BACF40F-2682-4EF5-BBAE-7CFD6A0A7228}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestai", "UnitTestai\UnitTestai.csproj", "{5BACF40F-2682-4EF5-BBAE-7CFD6A0A7228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{C757B2F5-CC08-4091-8357-C93BABF52A64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{C757B2F5-CC08-4091-8357-C93BABF52A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations.Tests", "MathOperations.Tests\MathOperations.Tests.csproj", "{29E29731-102D-47C0-BA44-644246A8B92A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations.Tests", "MathOperations.Tests\MathOperations.Tests.csproj", "{29E29731-102D-47C0-BA44-644246A8B92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOperations", "ListOperations\ListOperations.csproj", "{FE16BC4A-3029-4DDF-A27F-779BA543C545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOperations", "ListOperations\ListOperations.csproj", "{FE16BC4A-3029-4DDF-A27F-779BA543C545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOperations.Tests", "ListOperations.Tests\ListOperations.Tests.csproj", "{2C95B6BD-7D05-4E74-A7FA-E7226571DC84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOperations.Tests", "ListOperations.Tests\ListOperations.Tests.csproj", "{2C95B6BD-7D05-4E74-A7FA-E7226571DC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Core", "Library.Core\Library.Core.csproj", "{E92BFE43-6B05-48CC-94C7-53B20D26DB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Tests", "Library.Tests\Library.Tests.csproj", "{7F20C229-E47D-4D43-B715-4E36C63B6FDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{2C95B6BD-7D05-4E74-A7FA-E7226571DC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C95B6BD-7D05-4E74-A7FA-E7226571DC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C95B6BD-7D05-4E74-A7FA-E7226571DC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92BFE43-6B05-48CC-94C7-53B20D26DB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92BFE43-6B05-48CC-94C7-53B20D26DB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92BFE43-6B05-48CC-94C7-53B20D26DB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92BFE43-6B05-48CC-94C7-53B20D26DB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F20C229-E47D-4D43-B715-4E36C63B6FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F20C229-E47D-4D43-B715-4E36C63B6FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F20C229-E47D-4D43-B715-4E36C63B6FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F20C229-E47D-4D43-B715-4E36C63B6FDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
